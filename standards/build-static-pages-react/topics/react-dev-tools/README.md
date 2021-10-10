@@ -22,7 +22,15 @@ The components tab shows a complete hierarchy of the components in your app. Sel
 | ![Pointer Icon](assets/react-dev-tools-3.png) | Select an item on the screen to see what component it's part of |
 | ![Eye Icon](assets/react-dev-tools-2.png) | Examine the DOM element a component rendered in the element inspector |
 | ![Bug Icon](assets/react-dev-tools-4.png) | Log a component's data to the console |
-| ![Pointer Icon](assets/react-dev-tools-5.png) | See the source code for a component |
+| ![Brackets Icon](assets/react-dev-tools-5.png) | See the source code for a component |
+
+The function of other buttons can be determined by hovering over them and reading the tool tip.
+
+## Watch Out!
+
+The pointer icon that allows you to select a component on the page is the same as the regular dev tools element selector. This is intentional. The top icon selects DOM elements, the bottom icon selects React components.
+
+![Pointer icons](assets/react-dev-tools-6.png)
 
 ## Additional Resources
 
