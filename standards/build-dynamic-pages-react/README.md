@@ -16,6 +16,8 @@
   * [Exercises](topics/react-owner-member-views/exercises.md)
 * [Computed Properties](topics/computed-properties-react)
   * [Exercises](topics/computed-properties-react/exercises.md)
+* [Class-based Components](topics/class-based-components)
+  * [Exercises](topics/class-based-components/exercises.md)
 
 ## Assessment
 

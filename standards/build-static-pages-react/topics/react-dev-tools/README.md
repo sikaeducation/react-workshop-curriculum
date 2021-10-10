@@ -1,19 +1,28 @@
-# React: Dev Tools
+# React Dev Tools: Components
+
+React is an abstraction on top of the DOM. While this abstraction is powerful, it limits the usefulness of the existing DOM-based browser dev tools. For example, how can you see the component hierarchy or examine the state of a component? The React Dev Tools browser extension adds new tabs to your dev tools that allow you to examine components the same you inspect DOM elements in the Element Inspector.
+
+## Installation
+
+React Dev Tools are available for Chrome and Firefox as browser extensions.
+
+* [Chrome Installer](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en)
+* [Firefox Installer](https://addons.mozilla.org/en-US/firefox/addon/react-devtools/)
+
+You may need to restart your browser or reload pages after installing the extensions.
 
 ## Components
 
+![React Dev Tools Overview](assets/react-dev-tools-1.png)
+
 The components tab shows a complete hierarchy of the components in your app. Selecting a component will show you the current state of the component and any props it was given.
 
-* To see the comonent something on the page is a part of, use the pointer icon and select something from the page
-* To see the DOM element a component represents in the element inspector, press the eye button
-* To log a component's data to the console, press the bug icon
-* To see the source code for a component, press the angle brackets
-
-## Profiler
-
-
-## Watch Out!
-
+| Button | Function |
+| --- | --- |
+| ![Pointer Icon](assets/react-dev-tools-2.png) | Select an item on the screen to see what component it's part of |
+| ![Eye Icon](assets/react-dev-tools-3.png) | Examine the DOM element a component rendered in the element inspector |
+| ![Bug Icon](assets/react-dev-tools-4.png) | Log a component's data to the console |
+| ![Pointer Icon](assets/react-dev-tools-5.png) | See the source code for a component |
 
 ## Additional Resources
 

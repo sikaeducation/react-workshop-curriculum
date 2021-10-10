@@ -28,8 +28,6 @@
   * [Exercises](topics/applying-styles-react/exercises.md)
 * [React Images](topics/react-images)
   * [Exercises](topics/react-images/exercises.md)
-* [Class-based Components](topics/class-based-components)
-  * [Exercises](topics/class-based-components/exercises.md)
 
 ## Assessment
 
