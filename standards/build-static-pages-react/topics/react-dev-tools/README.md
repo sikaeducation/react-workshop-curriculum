@@ -19,8 +19,8 @@ The components tab shows a complete hierarchy of the components in your app. Sel
 
 | Button | Function |
 | --- | --- |
-| ![Pointer Icon](assets/react-dev-tools-2.png) | Select an item on the screen to see what component it's part of |
-| ![Eye Icon](assets/react-dev-tools-3.png) | Examine the DOM element a component rendered in the element inspector |
+| ![Pointer Icon](assets/react-dev-tools-3.png) | Select an item on the screen to see what component it's part of |
+| ![Eye Icon](assets/react-dev-tools-2.png) | Examine the DOM element a component rendered in the element inspector |
 | ![Bug Icon](assets/react-dev-tools-4.png) | Log a component's data to the console |
 | ![Pointer Icon](assets/react-dev-tools-5.png) | See the source code for a component |
 
