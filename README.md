@@ -36,3 +36,10 @@ Each standard has:
 * A longer-form assessment for each skill
 
 Everyone is starting from a different place so it's normal for everyone to end in a different place also. If you're new to React, you will likely get through the first standard and some of the second over the course of the workshop. If you're already experienced with React, you may be able to get through all 4 standards. Note that it's much more valuable to be able to confidently apply the concepts from one standard than it is to have a passing familiarity with all 4. Start at the beginning and be patient with yourself.
+
+## Links
+
+* [Request Form](https://forms.gle/zBh6PgQoyZor2Dfu7)
+* [Daily Survey](https://forms.gle/c9wdi9Yg1WtE4YTK8)
+* [ToDoist Example](https://github.com/karlhadwen/todoist/tree/master/src)
+* [Code SandBox](https://codesandbox.io)
