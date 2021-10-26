@@ -46,3 +46,5 @@ Everyone is starting from a different place so it's normal for everyone to end i
 * [React Intro Code Sandbox](https://codesandbox.io/s/new-water-kb813)
 * [Day 1 Livecoding Example](https://github.com/kylecoberly/hartford-react-day-1-live-code)
 * [Day 2 Warmup Notes](https://github.com/sikaeducation/react-warmup-questions/tree/hartford)
+* [Code Sandbox - Props, Iteration](https://codesandbox.io/s/bold-yalow-1kgpv?file=/src/App.js)
+* [Github - Buildpack Picker](https://github.com/sikaeducation/buildpack-picker-component)
