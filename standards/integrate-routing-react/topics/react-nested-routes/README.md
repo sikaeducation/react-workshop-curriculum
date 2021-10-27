@@ -33,7 +33,7 @@ const match = useRouteMatch()
 
 ## Nesting Routes
 
-In React Router, a nested route is a component that has its own router. For example:
+In React Router, a nested route is a component that has its own switch. For example:
 
 ```jsx
 const App = () => {
@@ -91,17 +91,18 @@ const CareerSchoolView = () => {
     id: "cm",
     label: "Communication Management",
   }]
-  const $departments = departments.map(department => (
-    <li key={department.id}>
-      <Link to={`${url}/${department.id}`}>{department.label}</Link>
-    </li>
-  ))
 
   return (
     <div className="CareerSchoolView">
       <h2>Welcome to the University of Denver's University College</h2>
       <nav>
-        <ul>{$departments}</ul>
+        <ul>
+          {departments.map(({id, label}) => (
+            <li key={id}>
+              <Link to={`${url}/${id}`}>{label}</Link>
+            </li>
+          ))}
+        </ul>
       </nav>
       <Switch>
         <Route path={`${path}/:departmentName`}>

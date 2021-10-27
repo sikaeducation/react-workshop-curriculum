@@ -46,7 +46,7 @@ const App = () => {
         </li>
       </ul>
       <Switch>
-        <Route path="/:productCategory">
+        <Route path="/:productCategoryLabel">
           <ProductView />
         </Route>
         <Route path="/">
@@ -60,12 +60,12 @@ const App = () => {
 
 ```jsx
 const ProductView = () => {
-  const { productCategory } = useParams()
+  const { productCategoryLabel } = useParams()
   const [ productCategory, setProductCategory ] = useState({})
   const [ error, setError ] = useState(false)
 
   useEffect(() => {
-    fetch(`products/${productCategory}`)
+    fetch(`products/${productCategoryLabel}`)
       .then(response => response.json())
       .then(productCategory => {
         setProductCategory(productCategory)
@@ -108,17 +108,16 @@ const App = () => {
     label: "Carrot",
   }]
 
-  const $items = items.map(item => {
-    return (
-      <li>
-        <Link to={`items/${item.id}`}>{item.name}</Link>
-      </li>
-    )
-  })
 
   return (
     <Router>
-      <ul>{$items}</ul>
+      <ul>
+      {items.map(item => (
+        <li>
+          <Link to={`items/${item.id}`}>{item.name}</Link>
+        </li>
+      ))}
+      </ul>
       <Switch>
         <Route path="/items/:itemId">
           <Item />
