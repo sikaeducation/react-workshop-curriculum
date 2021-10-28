@@ -52,3 +52,5 @@ Everyone is starting from a different place so it's normal for everyone to end i
 * [React Router Nested Exercise](https://github.com/sikaeducation/react-router-nested-exercise)
 * [Day 4 Warmup Notes](https://github.com/sikaeducation/react-warmup-questions-3/tree/hartford)
 * [Pokemon Picker Sandbox](https://codesandbox.io/s/interesting-dream-ife02)
+* [When to Use useCallback and useMemo](https://kentcdodds.com/blog/usememo-and-usecallback)
+* [Typeahead Search Component](https://github.com/sikaeducation/typeahead-search-demo)
